@@ -1,0 +1,29 @@
+.teachers {
+    &__container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    &__area {
+        margin-top: 4.3em;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+        gap: 2em;
+    }
+
+    &__card {
+        align-items: normal;
+        padding: 1.5em;
+        cursor: auto;
+        color: $colorText;
+    }
+
+    li {
+        list-style: none;
+        align-self: start;
+    }
+}

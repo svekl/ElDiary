@@ -1,0 +1,37 @@
+.settings {
+    &__box {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        color: #3c3c3c;
+
+    }
+
+    &__item {
+        border: 1px solid $colorText;
+        border-radius: 10px;
+        background-color: $colorBackgroundSecond;
+        box-shadow: 0px 5px 5px 2px rgba(30, 149, 155, 0.5);
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1em;
+        padding: 15px 20px;
+    }
+
+    &__title {
+        font-size: 1.2em;
+        color: $colorFirst;
+    }
+
+    input[type='radio'] {
+        accent-color: $colorButton;
+        margin-right: 10px;
+        transform: scale(1.5);
+        cursor: pointer;
+    }
+
+    label {
+        font-size: 1.2em;
+    }
+}

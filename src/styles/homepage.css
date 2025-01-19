@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #1e959b;
+  background-color: #f0ffff;
+  padding: 10px;
+}
+
+.container {
+  min-width: 350px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: #1e959b;
+  font-size: 20px;
+}
+
+.logo {
+  font-size: 32px;
+}
+
+.logo_bold {
+  font-weight: 700;
+  color: #9a1d36;
+}
+
+.setup {
+  /* margin-left: 30px; */
+  font-weight: 700;
+  color: #f0ffff;
+  background-color: #9a1d36;
+  border-radius: 10px;
+  padding: 5px 15px;
+  box-shadow: 6px 3px 10px 0px rgba(30, 149, 155, 0.5);
+}
+
+.rightPart {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.homework {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.homework_date {
+  font-size: 1.4em;
+  margin-bottom: 1em;
+}
+
+.homework_title {
+  color: #3c3c3c;
+  margin-bottom: 0.5em;
+}
+
+.table,
+.row {
+  display: flex;
+}
+
+.table {
+  flex-direction: column;
+  color: #3c3c3c;
+  align-self: stretch;
+}
+
+.cell {
+  flex: 0.5;
+  padding: 2px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell_task {
+  flex: 1;
+}
+
+.cell_little {
+  flex: 0.2;
+}
+
+.row_atten {
+  background-color: rgba(154, 29, 54, 0.1);
+}/*# sourceMappingURL=homepage.css.map */

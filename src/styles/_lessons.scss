@@ -1,0 +1,36 @@
+.lessons {
+    &__title {
+        color: $colorText;
+    }
+
+    &__block {
+        display: flex;
+        gap: 15px;
+        align-items: baseline;
+        margin-bottom: 15px;
+
+        &:last-of-type {
+            flex: 1
+        }
+
+        ul {
+            text-align: center;
+        }
+    }
+
+    &__modal {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+
+        &-box {
+            display: flex;
+            gap: 5px;
+        }
+    }
+
+
+}
